@@ -65,25 +65,6 @@ for year in range(2010,2020):
 
 
 stat = pd.read_csv('battingstats.csv')
-stat
-
-
-# In[5]:
-
-
-stat.info()
-
-
-# In[6]:
-
-
-stat["WAR"].value_counts()
-
-
-# In[7]:
-
-
-stat.describe()
 
 
 # In[8]:
@@ -531,10 +512,4 @@ y_test_pred = my_model_loaded.predict(X_test)
 final_mse = mean_squared_error(y_test, y_test_pred)
 final_rmse = np.sqrt(final_mse)
 final_rmse
-
-
-# In[ ]:
-
-
-
 
