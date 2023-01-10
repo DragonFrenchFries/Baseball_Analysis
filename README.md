@@ -1,6 +1,8 @@
 # Baseball Analysis
 
-Opener Strategy Analysis compares the allowed runs per season between the opener strategy and regular strategy via baseball simulator.
+Battindorder.ipynb compares the runs per season between the lineup chosen by conventional wisdom and simulated annealing via baseball simulator.
+
+Opener Strategy Analysis.ipynb compares the allowed runs per season between the opener strategy and regular strategy via baseball simulator.
 
 KBO_crawling.py gets KBO baseball player's info and statistics from STATIZ(KBO Baseball Statistics website).
 
